@@ -18,6 +18,10 @@ body {
   padding-top: 25px;
 }
 
+.nav-list {
+  text-align: : center;
+}
+
 .navbar-brand h1{
   font-family: "Lucida Console", Courier, monospace;
   color: #000000;
@@ -28,6 +32,44 @@ body {
   margin-bottom: 0;
   line-height: 0.0;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a:hover {
   text-decoration: none;
+  background-color: #ddd;
+  color: black;
+}
+
+.chiken {
+  border: 5px solid black;
+  background-color: pink;
+  font-family: Helvetica;
+  color: black;
+  
+  text-align: center;
+ margin-bottom: 20px;
+  overflow: auto;
+
+}
+
+.beef {
+  border: 5px solid black;
+  background-color: pink;
+  font-family: Helvetica;
+  color: black;
+
+  text-align: center;
+  
+  overflow: auto;
+margin-bottom: 20px;
+}
+
+.sushi {
+  border: 5px solid black;
+  background-color: pink;
+  font-family: Helvetica;
+  color: black;
+
+  text-align: center;
+  
+  overflow: auto;
+margin-bottom: 20px;
 }
